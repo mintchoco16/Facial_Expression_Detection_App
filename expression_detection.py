@@ -123,4 +123,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-pip install streamlit
+#pip install streamlit
