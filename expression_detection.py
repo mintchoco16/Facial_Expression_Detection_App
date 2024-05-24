@@ -8,20 +8,20 @@ Original file is located at
 """
 
 # Install necessary packages
-!pip install numpy==1.23.5  # Compatible version based on existing dependencies
-!pip install opencv-python-headless==4.9.0.80  # OpenCV library for image processing
-!pip install tensorflow==2.12.0  # TensorFlow deep learning framework
-!pip install keras==2.12.0  # Keras high-level neural networks API
-!pip install streamlit==1.35.0  # Streamlit for creating web applications
+#!pip install numpy==1.23.5  # Compatible version based on existing dependencies
+#!pip install opencv-python-headless==4.9.0.80  # OpenCV library for image processing
+#!pip install tensorflow==2.12.0  # TensorFlow deep learning framework
+#!pip install keras==2.12.0  # Keras high-level neural networks API
+#!pip install streamlit==1.35.0  # Streamlit for creating web applications
 
 # Additional packages for visualization and data handling
-!pip install pydeck==0.9.1  # Pydeck for 3D visualization
-!pip install gitpython==3.1.43  # GitPython for interacting with Git repositories
-!pip install watchdog==4.0.1  # Watchdog for monitoring file system events
+#!pip install pydeck==0.9.1  # Pydeck for 3D visualization
+#!pip install gitpython==3.1.43  # GitPython for interacting with Git repositories
+#!pip install watchdog==4.0.1  # Watchdog for monitoring file system events
 
 # Restart runtime to apply the changes
 
-!pip install tensorflow==2.12.0
+#!pip install tensorflow==2.12.0
 
 import numpy as np
 import cv2
@@ -125,4 +125,4 @@ if __name__ == "__main__":
     main()
 
 
-pip install streamlit
+#pip install streamlit
