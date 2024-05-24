@@ -24,7 +24,7 @@ Original file is located at
 #!pip install tensorflow==2.12.0
 
 import numpy as np
-import tensorflow as tf
+#import tensorflow as tf
 from tensorflow import keras
 import streamlit as st
 
