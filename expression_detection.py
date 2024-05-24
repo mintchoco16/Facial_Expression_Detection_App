@@ -24,13 +24,11 @@ Original file is located at
 #!pip install tensorflow==2.12.0
 
 import numpy as np
-import cv2
 import tensorflow as tf
 from tensorflow import keras
 import streamlit as st
 
 import numpy as np
-import cv2
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 from tensorflow.keras.callbacks import ModelCheckpoint
